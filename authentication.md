@@ -80,7 +80,7 @@ Laravel 通过运行如下命令可快速生成认证所需要的路由和视图
 
     protected function redirectTo()
     {
-        //
+        return '/path';
     }
 
 > {tip} `redirectTo` 方法优先于 `redirectTo` 属性。
